@@ -17,7 +17,7 @@ roBERTa/
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/yourrepo.git
+git clone https://github.com/kaushalnandaniya/Twitter-Sentiment-Analysis-Using-roBERTa.git
 cd roBERTa
 ```
 
@@ -78,4 +78,16 @@ See `../requirements.txt` for all dependencies.
 
 ## 📄 License
 
-This project is for educational purposes. Please check dataset and model licenses before commercial use. 
+This project is for educational purposes. Please check dataset and model licenses before commercial use.
+
+## ⬇️ Download the Model
+
+Before running predictions, download the trained model from Google Drive:
+
+```bash
+pip install gdown
+
+gdown --id 1cAiiCXYCXl6RnQaSUbdxiSmOUHchzYDO -O my_model.keras
+```
+
+This will save the model as `my_model.keras` in your current directory. 
